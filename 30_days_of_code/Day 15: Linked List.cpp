@@ -28,7 +28,6 @@ class Solution{
                  temp = temp->next;
              }
              temp->next = ptr;
-             ptr->next = NULL;
          }
          return head;
       }
